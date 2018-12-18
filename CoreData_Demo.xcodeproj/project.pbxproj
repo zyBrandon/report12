@@ -13,6 +13,8 @@
 		636A483F21C53BAB00B21B06 /* CoreData_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 636A483D21C53BAB00B21B06 /* CoreData_Demo.xcdatamodeld */; };
 		636A484121C53BAC00B21B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636A484021C53BAC00B21B06 /* Assets.xcassets */; };
 		636A484421C53BAC00B21B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636A484221C53BAC00B21B06 /* LaunchScreen.storyboard */; };
+		636A484C21C6222300B21B06 /* PersonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A484B21C6222300B21B06 /* PersonsTableViewController.swift */; };
+		636A484E21C6281900B21B06 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A484D21C6281900B21B06 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		636A484021C53BAC00B21B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636A484321C53BAC00B21B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636A484521C53BAC00B21B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636A484B21C6222300B21B06 /* PersonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewController.swift; sourceTree = "<group>"; };
+		636A484D21C6281900B21B06 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				636A483621C53BAB00B21B06 /* AppDelegate.swift */,
 				636A483821C53BAB00B21B06 /* ViewController.swift */,
 				636A483A21C53BAB00B21B06 /* Main.storyboard */,
+				636A484B21C6222300B21B06 /* PersonsTableViewController.swift */,
+				636A484D21C6281900B21B06 /* DetailViewController.swift */,
 				636A484021C53BAC00B21B06 /* Assets.xcassets */,
 				636A484221C53BAC00B21B06 /* LaunchScreen.storyboard */,
 				636A484521C53BAC00B21B06 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636A484C21C6222300B21B06 /* PersonsTableViewController.swift in Sources */,
 				636A483921C53BAB00B21B06 /* ViewController.swift in Sources */,
+				636A484E21C6281900B21B06 /* DetailViewController.swift in Sources */,
 				636A483F21C53BAB00B21B06 /* CoreData_Demo.xcdatamodeld in Sources */,
 				636A483721C53BAB00B21B06 /* AppDelegate.swift in Sources */,
 			);
